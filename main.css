@@ -1,0 +1,367 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+html,body{
+	height:100%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+.menu{
+	width:350px;
+	background-color:#fff;
+	height:100%;
+	float:left;
+	overflow: hidden;
+}
+.left{
+	background-color:  #1d2531;
+	position: fixed;
+    left: 0;
+    width: 100px;
+    height: 100%;
+}
+.right{
+	background-color: #222c3c;
+	position: fixed;
+    left: 100px;
+    width: 250px;
+    height: 100%;
+}
+.left .item{
+	margin-left:19px;
+}
+.left .item1{
+	position: fixed;
+	top:19px;
+}
+.left .item2{
+	position: fixed;
+	top:98px;
+}
+.left .item3{
+	position: fixed;
+	top:177px;
+}
+.left .item4{
+	position: fixed;
+	top:256px;
+}
+.left .bott{
+	left:19px;
+	position: fixed;
+	bottom:18px;
+}
+.left .bott .no2{
+	margin-left:14px;
+}
+
+
+/*第二列*/
+.right .area1{
+	box-sizing: border-box;
+	width:198px;
+	height:25.5%;
+	margin-left:27px;
+	border-bottom: 2px solid #2a3547;
+}
+.right .area2{
+	box-sizing: border-box;
+	width:198px;
+	height:22.5%;
+	margin-left:27px;
+	border-bottom: 2px solid #2a3547;
+}
+.right .area3{
+	box-sizing: border-box;
+	width:198px;
+	height: 50%;
+	margin-left:27px;
+}
+
+.right .h{
+	padding-top:20px;
+	padding-bottom:3%;
+	color:#576375;
+	font-size:12px;
+	font-family: sans-serif;	
+}
+.right .area1 .h img{
+	margin-left:140px;
+}
+.right li{
+	margin-bottom:0.78%;
+	line-height: 24px;
+}
+.right li a{
+	color:white;
+	text-decoration: none;
+	font-size:14px;
+}
+.right li .notify1{
+	margin-left:124px;
+	vertical-align: middle;
+}
+.right li .notify2{
+	margin-left:95px;
+	vertical-align: middle;
+}
+.right li .notify3{
+	margin-left:90px;
+	vertical-align: middle;
+}
+
+.right .area2 .h img{
+	margin-left:70px;
+}
+.right .area2 li a{
+	color:white;
+	text-decoration: none;
+	font-size:14px;
+	margin-left:13px;
+}
+.right .area3 .h img{
+	margin-left:95px;
+}
+.right .area3 .text{
+	position:fixed;
+	bottom:35px;
+	font-size:14px;
+	color:white;
+}
+.right .area3 .text .no2{
+	margin-left:25px;
+}
+.right .area3 .rate{
+	position: fixed;
+	bottom: 20px;
+}
+.content{
+	/*background-color: #DDE574;*/
+	margin-left: 350px;
+	position:relative;
+	/*overflow: auto;*/
+}
+.content .message{
+	width:400px;
+	position:absolute;
+	top:80px;
+	left:0;
+	border-right:1px solid #e6e9ec;
+
+}
+.content .header{
+	height:80px; 
+	border-bottom: 1px solid #e6e9ec;
+}
+.content .header .d{
+	position: fixed;
+	top:37px;
+	right:30px;
+}
+.content .header .role{
+	position: fixed;
+	top:25px;
+	right:70px;
+}
+.content .header .photo{
+	position: fixed;
+	top:15px;
+	right: 173px;
+}
+.content .h{
+	color:#354052;
+	font-size: 24px;
+	line-height: 80px;
+	padding-left:29px;
+}
+.content .message .search-box,.content .communication .name{
+	height:70px;
+	border-bottom: 1px solid #e6e9ec;
+}
+.content .message .search-box .search{
+	margin-top:15px;
+	margin-left:30px;
+	height: 37px;
+	width:340px;
+	border:1px solid #e6e9ec;
+	border-radius: 0.3em;
+	background:url(images/search.png) no-repeat;
+	background-position:309px 10px;	
+}
+.content .message .search-box input::-webkit-input-placeholder {
+	padding-left:10px;
+  }
+ .content .message .search-box input::-moz-placeholder {
+	padding-left:10px;
+  }
+.content .message .search-box input::-ms-input-placeholder {
+	padding-left:10px;
+  }
+.content .message .info{
+ 	box-sizing: border-box;
+ 	display: block;
+ 	height: 130px;
+ 	border-bottom: 1px solid #e6e9ec;
+ }
+.content .message .pic{
+ 	padding-left:90px;
+ 	padding-top: 20px;
+ }
+.content .message .pic .name{
+  	font-size: 16px;
+
+  }
+.content .message .info1 .name{
+   	color:#00aaff;
+   	margin-left:5px;
+}
+.content .message .pic .time1{
+	font-size: 14px;
+	color:#7f8fa4;
+	margin-left: 160px;
+}
+.content .message .pic .time2{
+	font-size: 14px;
+	color:#7f8fa4;
+	margin-left: 120px;
+}
+.content .message .pic .time4{
+	font-size: 14px;
+	color:#7f8fa4;
+	margin-left: 140px;
+}
+.content .message .pic .time3{
+	font-size: 14px;
+	color:#7f8fa4;
+	margin-left: 125px;
+}
+.content .message .info1{
+ 	background:url(images/photo1.png) no-repeat 25px 15px;
+ }
+ .content .message a:hover{
+ 	border-left:2px solid #00aaff;
+ }	
+.content .message .info2{
+ 	background:url(images/photo2.png) no-repeat 25px 15px;
+ }
+ .content .message .info3{
+ 	background:url(images/photo3.png) no-repeat 25px 15px;
+ }
+ .content .message .info4{
+ 	background:url(images/photo4.png) no-repeat 25px 15px;
+ }
+ .content .message .info5{
+ 	background:url(images/photo5.png) no-repeat 25px 15px;
+ }
+ .content .message .info6{
+ 	background:url(images/photo6.png) no-repeat 25px 15px;
+ }
+ .content .message .info7{
+ 	background:url(images/photo7.png) no-repeat 25px 15px;
+ }
+ .content .message .info8{
+ 	background:url(images/photo8.png) no-repeat 25px 15px;
+ }
+ .content .message .msn{
+ 	color:#c9c9c9;
+ 	font-size:14px;
+ }
+ .content .message p{
+ 	padding:15px 40px 20px 25px;
+ 	display: inline-block;
+ }
+ .content .message .first{
+	background: url(images/Notification4.png) no-repeat;
+	background-position: 355px 12px;
+ }
+
+.content .communication{
+	display: absolute;
+	top:80px;
+	margin-left:400px;
+	/*background-color: #D59FD2;*/
+	/*overflow: auto;*/
+}
+.content .communication .m{
+	font-size:18px;
+	margin-left:30px;
+	display: inline-block;
+	margin-top:23px;
+	color: #858890;
+}
+.content .communication .noti{
+	margin-left:20px;
+}
+.content .communication .tool{
+	margin-left:300px;
+	vertical-align: middle;
+}
+.content .communication .line{
+	margin-left:20px;
+	vertical-align: middle;
+}
+.content .communication .thing{
+	margin-left:20px;
+	vertical-align: middle;
+}
+.communication .person .personname{
+	font-size: 16px;
+	font-weight: bold;
+	color: #858890;
+}
+.content .communication .com{
+	padding:20px 20px 0px 90px;
+}
+.content .communication .person .time{
+	font-size: 14px;
+	color:#7f8fa4;
+	margin-left:20px;
+}
+.content .communication .con{
+	color:#909399;
+	font-size:14px;
+}
+.content .communication .com1{
+	background:url(images/photo1.png) no-repeat;
+	background-position: 30px 24px;
+}
+.content .communication .com2{
+	background: url(images/photo8.png) no-repeat;
+	background-position: 30px 24px;
+}
+.content .communication .comb{
+		height: 198px;
+}
+.content .communication .tue{
+	color:#35AFE1;
+}
+.content .communication .tue .word{
+	color:#35AFE1;
+	padding:20px 20px;
+}
+.content .communication .pic{
+	margin-top: 20px;
+}
+.content .communication .pic .pic1{
+	margin-right: 15px;
+}
+.add{
+	background: url(images/Add.png) no-repeat left top;
+	border:1px solid #ced0da;
+	border-radius: 0.3em;
+	height:50px;
+	width:700px;
+	margin-left:30px;
+	margin-top: 10px;
+}
+.add .p{
+	margin-left:70px;
+	margin-top:22px;
+}
